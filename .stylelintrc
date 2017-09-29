@@ -1,0 +1,19 @@
+{
+  "extends": "stylelint-config-sass-guidelines",
+  "rules": {
+    "block-no-empty": null,
+    "color-no-invalid-hex": true,
+    "comment-empty-line-before": [ "always", {
+      "ignore": ["stylelint-command", "after-comment"]
+    } ],
+    "comment-whitespace-inside": null,
+    "declaration-colon-space-after": "always",
+    "max-empty-lines": 2,
+    "rule-empty-line-before": [ "always", {
+      "except": ["first-nested"],
+      "ignore": ["after-comment"]
+    } ],
+    "selector-no-id": null,
+    "unit-whitelist": ["em", "ms", "px", "rem", "%", "s"]
+  }
+}
