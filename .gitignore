@@ -1,0 +1,88 @@
+#----------- Compiled Source -----------
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+#----------- Temporary Files -----------
+*.swp
+*.swo
+*~
+
+#----------- Packages -----------
+*.7z
+*.dmg
+*.gz
+*.iml
+*.iso
+*.jar
+*.pyc
+*.rar
+*.tar
+*.zip
+
+#----------- Logs and Databases -----------
+*.log
+npm-debug.log
+*.sql
+*.sqlite
+
+#----------- OS Generated Files -----------
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+#----------- WordPress -----------
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+
+#----------- IDE Project Files -----------
+# Atom project files
+.cson
+# Coda project files
+*.codasite
+# Codekit project files
+*.codekit
+# Espresso project files
+*.esproj
+# PHPStorm/WebStorm project files
+.idea
+# Sublime Text project files
+.sublime*
+# Visual Studio Code project files
+.vscode
+
+#----------- Project Directories -----------
+.bower-cache
+.bower-registry
+.sass-cache
+.tmp
+bower_components
+build
+coverage
+dist
+node_modules
+typings
+
+#----------- Environment files -----------
+.env
+.env-sample
+
+#----------- Webpack source maps -----------
+*.map
+
+#----------- Git merge backups -----------
+*.orig
